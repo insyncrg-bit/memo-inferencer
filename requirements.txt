@@ -1,0 +1,18 @@
+# Unstructured.io Python SDK for AI-powered document partitioning
+unstructured-client>=0.28.0
+
+# HTTP client for downloading PDFs from Firebase URLs
+httpx>=0.27.0
+
+# Environment variable management
+python-dotenv>=1.0.0
+
+# OpenAI SDK (for OpenAI provider)
+openai>=1.30.0
+
+# Google GenAI SDK (for Gemini provider — hits Google servers natively)
+google-genai>=1.0.0
+
+# Web framework
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0

@@ -1,0 +1,23 @@
+# Dependencies
+.venv/
+__pycache__/
+*.pyc
+
+# Local testing artifacts
+output/
+*.md
+
+# Environment files (secrets injected via Cloud Run env vars)
+.env
+.env.example
+
+# CLI-only files (not needed in the container)
+run.py
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
