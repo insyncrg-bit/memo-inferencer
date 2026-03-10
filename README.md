@@ -2,8 +2,7 @@
 
 AI-powered pitch deck analysis for InSync startup memo autofill.
 
-Unlike the basic `ocr-tool` which uses simple PDF-to-text extraction (pdfplumber),
-this project uses **Unstructured.io's VLM (Vision Language Model) strategy** to
+This tool uses **Unstructured.io's VLM (Vision Language Model) strategy** to
 understand the *visual layout* of each slide—capturing titles, tables, charts,
 and context that traditional text extraction misses.
 
