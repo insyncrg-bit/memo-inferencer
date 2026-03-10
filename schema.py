@@ -313,7 +313,7 @@ class StartupAutofillData(BaseModel):
     )
     tamValue: Optional[str] = Field(
         default=None,
-        description="Total Addressable Market value (e.g. '$585M'). Use what is explicitly stated with a dollar figure in deck. If not stated, infer from the deck and startup idea.",
+        description="Total Addressable Market value (e.g. '$585M'). Use what is explicitly stated with a dollar figure in deck. If not stated, infer and use ex: $585M, $3B format",
     )
     tamCalculationMethod: Optional[str] = Field(
         default=None,
@@ -325,7 +325,7 @@ class StartupAutofillData(BaseModel):
     )
     samValue: Optional[str] = Field(
         default=None,
-        description="Serviceable Addressable Market value. Use what is explicitly stated with a dollar figure in deck. If not stated, infer from the deck and startup idea.",
+        description="Serviceable Addressable Market value. Use what is explicitly stated with a dollar figure in deck. If not stated, infer and use ex: $585M, $3B format",
     )
     samBreakdown: Optional[str] = Field(
         default=None,
@@ -333,7 +333,7 @@ class StartupAutofillData(BaseModel):
     )
     somValue: Optional[str] = Field(
         default=None,
-        description="Serviceable Obtainable Market value. Use what is explicitly stated with a dollar figure in deck. If not stated, infer from the deck and startup idea.",
+        description="Serviceable Obtainable Market value. Use what is explicitly stated with a dollar figure in deck. If not stated, infer and use ex: $585M, $3B format",
     )
     somTimeframe: Optional[str] = Field(
         default=None,
